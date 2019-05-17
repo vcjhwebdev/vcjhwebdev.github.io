@@ -1,0 +1,41 @@
+// ======================================
+//  Variables
+// ======================================
+
+// Colors
+$white: #fff;
+$black: #000;
+
+$primary-colors: (
+  1: #003366,
+  2: #66CCFF,
+  3: #999999
+);
+
+$secondary-colors: (
+  1: #FFCC33,
+  2: #FF9933,
+  3: #666699,
+  4: #9999CC,
+  5: #669933,
+  6: #999999,
+  7: #CC0033,
+  8: #009999,
+  9: #990033
+);
+
+// Fonts
+$font-stack-heading: "Roboto Mono", "Andale Mono", AndaleMono, monospace;
+$font-stack-body: "Open Sans", Helvetica, sans-serif;
+
+// // Layout
+// $max-width: 1400px;
+// $gutter: 10px;
+//
+// // Breakpoints
+// $breakpoints: (
+//   'xs': 575px,
+//   'sm': 576px,
+//  'med': 768px,
+//   'lg': 992px,
+// );

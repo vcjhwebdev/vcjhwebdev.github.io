@@ -1,0 +1,42 @@
+// ======================================
+//  Banner
+// ======================================
+
+header {
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: 320px;
+  background-image: url('../images/banner-s.jpg');
+  @media (max-width: 320px) {
+    height: 280px;
+    background-image: url('../images/banner-xs.jpg');
+  }
+  @media (min-width: 768px) {
+    height: 360px;
+    background-image: url('../images/banner-md.jpg');
+  }
+  @media (min-width: 1024px) {
+    height: 480px;
+    background-image: url('../images/banner-lg.jpg');
+  }
+  @media (min-width: 1400px) {
+    height: 540px;
+    background-image: url('../images/banner-xlg.jpg');
+  }
+}
+
+header .title {
+  background-color: rgba(map-get($primary-colors, 1), .65);
+  background-image: url('../images/amse_logo.png');
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center calc(100% - 1em);
+  height: 100%;
+  @include flexy($disp: flex, $dir: column, $just: center);
+  position: relative;
+  @media (min-width: 768px) {
+    background-position: calc(100% - 1em) calc(100% - 1em);
+    background-size: 300px;
+  }
+}

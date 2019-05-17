@@ -1,0 +1,69 @@
+// ======================================
+//  Typography
+// ======================================
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: $font-stack-heading;
+  line-height: 1.5;
+}
+
+#portfolio {
+  color: map-get($primary-colors, 1);
+}
+
+blockquote {
+  &::before {
+    content: open-quote;
+  }
+  &::after {
+    content: close-quote;
+  }
+  &::before,
+  &::after {
+    font-size: 4em;
+    line-height: .1em;
+    vertical-align: -0.4em;
+  }
+}
+
+cite::before {
+  content: "- "
+}
+
+cite {
+  margin: .5em;
+  display: inline-block;
+  max-width: 240px;
+}
+
+.card .authors {
+  font-style: italic;
+}
+
+#about {
+  background-color: map-get($primary-colors, 1);
+  color: $white;
+  & a {
+    color: map-get($primary-colors, 2);
+    &:hover {
+      opacity: .6;
+    }
+  }
+}
+
+.quote {
+  background-color: map-get($secondary-colors, 2);
+  color: map-get($primary-colors, 1);
+}
+
+#contact {
+  background-color: map-get($secondary-colors, 1);
+  color: map-get($primary-colors, 1);
+  & a {
+    color: map-get($secondary-colors, 7);
+    &:hover {
+      opacity: .6;
+    }
+  }
+}

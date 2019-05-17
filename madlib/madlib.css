@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #FFEDDE;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #B27038;
+}
+
+form input {
+	background-color: #A1B0B2;
+	color: #9DEFFF;
+}
+
+input {
+	color: #B27038;
+}
+
+div#words {
+	background-color: #83EBFF;
+	border-radius: 16px;
+	padding: 16px;
+}
+
+div#result {
+	border: 2px solid #B27038;
+	border-radius: 16px;
+	height: 300px;
+	padding: 16px;
+}

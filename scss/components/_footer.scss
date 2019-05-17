@@ -1,0 +1,13 @@
+// ======================================
+//  Footer
+// ======================================
+footer {
+  color: $white;
+  background-color: map-get($primary-colors, 1);
+  text-align: center;
+}
+
+footer p {
+  padding: 1em 0;
+  font-size: .85em;
+}
